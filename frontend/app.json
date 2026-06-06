@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "DoeBem",
+    "slug": "doebem",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "doebem",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-notifications",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "O DoeBem precisa acessar sua camera para fotos das doacoes."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "O DoeBem precisa acessar suas fotos para anexar imagens das doacoes."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "O DoeBem usa sua localizacao para preencher o endereco de retirada."
+        }
+      ]
+    ]
+  }
+}

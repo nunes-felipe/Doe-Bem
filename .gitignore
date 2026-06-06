@@ -1,0 +1,9 @@
+node_modules/
+.env
+.expo/
+dist/
+*.log
+uploads/
+backend/uploads/
+doebem-novo/
+.expo-export-test/
